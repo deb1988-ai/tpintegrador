@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto mono',;
+    
+}
+.active {
+color: white;
+}
+
+.oradores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 520px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.tarjeta img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.tarjeta .botones {
+    margin: 1rem .5rem .5rem .5rem;
+}
+
+.tarjeta .botones input[type="button"]{
+    padding: .2rem .4rem .2rem .4rem;
+    font-size: .6rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
+.tarjeta .botones input[type="button"]:hover {
+    animation: heartBeat; 
+    animation-duration: 1s;
+}
+
+.tarjeta .botones .btnAmarillo {
+    background-color: rgb(255, 194,7);
+    font-weight: bold;
+}
+
+.tarjeta .botones .btnAzul {
+    background-color: rgb(23, 162,188);
+    color: white;
+    font-weight: bold;
+}
+
+.tarjeta .botones .btnRojo {
+    background-color: rgb(195, 38, 55);
+    color: white;
+    font-weight: bold;
+}
+.tarjeta .botones .btnGris {
+    background-color: dimgray;
+    color: white;
+    font-weight: bold;
+}
+.tarjeta .titulo {
+    font-size: 1.3rem;
+    margin: .2rem .5rem 1rem .5rem;
+    font-weight: bold;
+}
+
+.tarjeta .texto {
+    font-size: .8rem;
+    margin: .8rem;
+    text-align: left;
+    font-weight: 450;
+}
+
+.texto1 {
+    color: lightgray;
+    font-weight: bold;
+}
+
+.texto2 {
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.textoGrande {
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+}
+.textoGrande2 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.textoMediano {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
+.subrayado {    
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+.foto img {
+    width: 100%;
+    position: relative;
+    filter: brightness(50%);
+  }
+
+.cropp {
+height: 800px;
+object-fit: none;
+object-position: center 71%;
+}
+
+.foto .overlay {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    right: 10%;
+    font-weight: bold;
+    text-align: right;
+  }
