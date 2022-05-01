@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #353A40;">
+    <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #353A40; width: auto;">
         <div class="container-fluid d-flex">
 
             <div class="container">
@@ -35,7 +35,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-weight: 500;">
                         <li class="nav-item">
-                            <a class="nav-link active text-justify" aria-current="page" href="#">La Conferencia</a>
+                            <a class="nav-link p-2 active text-justify" aria-current="page" href="#">La Conferencia</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Los Oradores</a>
@@ -54,9 +54,10 @@
             </div>
         </div>
     </nav>
+
     <div>
         <div class="foto">
-            <img class="background-image cropp" src="images\ba1.jpg">
+            <img class="background-image cropp img-fluid" src="images\ba1.jpg">
             <div class="overlay">
                 <div class="textoGrande">Conf BS AS</div>
                 <br>
@@ -72,15 +73,16 @@
                 <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
                 <button type="button" class="btn btn-success">Comprar tickets</button>
             </div>
-
         </div>
     </div>
+
     <br>
+
     <div>
         <div class="text-center" style="font-size: small;">CONOCE A LOS</div>
         <div class="text-center h2" style="font-size: xx-large; font-weight: 600">ORADORES</div>
     </div>
-    </div>
+
     <div class="oradores">
         <div class="tarjeta " data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
             <img src="images/steve.jpg" alt="Steve Jobs">
@@ -118,6 +120,7 @@
                 quibusdam inventore fugiat animi?</div>
         </div>
     </div>
+
     <br>
 
     <div class="card mb-3" style="background-color: #333A40;">
@@ -147,7 +150,9 @@
             </div>
         </div>
     </div>
+
     <br>
+
     <div>
         <div class="text-center" style="font-size: small;">CONVIERTETE EN UN</div>
         <div class="text-center h2" style="font-size: xx-large; font-weight: 600">ORADOR</div>
@@ -155,6 +160,7 @@
             Cuentanos de que quieres hablar!
         </div>
     </div>
+
     <form>
         <div class="container">
             <div class="row justify-content-center align-items-center">
@@ -182,43 +188,35 @@
                 </div>
             </div>
     </form>
-    <div class="container">
-        <div class="vw-100 ">
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-                <div class="container-fluid d-flex">
-                    <div class="" style="padding: 1%; font-weight: 500;">
-                        <div style="justify-content: center;">
-                        </div>
-                        <ul class="nav" style="color: white">
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Preguntas <br> frecuentes</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Contactanos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Prensa</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Conferencias</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Terminos y condiciones</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Privacidad</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#">Estudiantes</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
 
-    </div>
-    </div>
+    <footer>
+        <div class="container" style="background-size: cover;">
+            <div class="row" style="padding-top: 20px; padding-bottom: 20px; background-color: #1C3846; width: 100%; align-items: center;">
+                <div class="col">
+                    <span>Preguntas <br> frecuentes</span>
+                </div>
+                <div class="col">
+                    <span>Contactanos</span>
+                </div>
+                <div class="col">
+                    <span>Prensa</span>
+                </div>
+                <div class="col">
+                    <span>Conferencias</span>
+                </div>
+                <div class="col">
+                    <span>Terminos y condiciones</span>
+                </div>
+                <div class="col">
+                    <span>Privacidad</span>
+                </div>
+                <div class="col">
+                    <span>Estudiantes</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
@@ -229,4 +227,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
