@@ -1,9 +1,9 @@
 * {
     margin: 0;
     font-size: 16px;
-    font-family: 'Roboto mono',;
-    
+    font-family: 'Roboto mono',;    
 }
+
 .active {
 color: white;
 }
@@ -134,9 +134,12 @@ object-position: center 71%;
     text-align: center;
     padding: 3px;
     width: 100%;
-    background-color: #1B3743;
+    background-color: #1C3643;
     color: white;
+    height: 90px;
+    background-image: linear-gradient(to right,#1C3643, #1E5372);
   }
+
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -155,4 +158,4 @@ object-position: center 71%;
     [class*="col-"] {
       width: 100%;
     }
-  }
+}
