@@ -154,6 +154,13 @@ object-position: center 71%;
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
   
+  .btnVerde {
+    background-color: #96C93E;  
+    width: 850px;
+    color: white;
+    border: 0ch;
+}
+
   @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     [class*="col-"] {
