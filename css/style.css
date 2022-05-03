@@ -132,6 +132,7 @@ object-position: center 71%;
   }
   footer {
     text-align: center;
+    align-items: center;
     padding: 3px;
     width: 100%;
     background-color: #1C3643;
