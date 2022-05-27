@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto mono', ;
+}
+
+.active {
+    color: white;
+}
+
+.oradores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 300px;
+    height: 520px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin: .5rem;
+}
+
+.tarjeta img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+.tarjeta .botones {
+    margin: 1rem .5rem .5rem .5rem;
+}
+
+.tarjeta .botones input[type="button"] {
+    padding: .2rem .4rem .2rem .4rem;
+    font-size: .6rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+}
+
+.tarjeta .botones input[type="button"]:hover {
+    animation: heartBeat;
+    animation-duration: 1s;
+}
+
+.tarjeta .botones .btnAmarillo {
+    background-color: rgb(255, 194, 7);
+    font-weight: bold;
+}
+
+.tarjeta .botones .btnAzul {
+    background-color: rgb(23, 162, 188);
+    color: white;
+    font-weight: bold;
+}
+
+.tarjeta .botones .btnRojo {
+    background-color: rgb(195, 38, 55);
+    color: white;
+    font-weight: bold;
+}
+
+.tarjeta .botones .btnGris {
+    background-color: dimgray;
+    color: white;
+    font-weight: bold;
+}
+
+.tarjeta .titulo {
+    font-size: 1.3rem;
+    margin: .2rem .5rem 1rem .5rem;
+    font-weight: bold;
+}
+
+.tarjeta .texto {
+    font-size: .8rem;
+    margin: .8rem;
+    text-align: left;
+    font-weight: 450;
+}
+
+.texto1 {
+    color: lightgray;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.texto2 {
+    color: darkgreen;
+    font-weight: bold;
+    font-size: 1vw;
+}
+
+.textoGrande {
+    color: white;
+    font-size: xx-large;
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+.textoGrande2 {
+    color: white;
+    font-size: 2.5em;
+    font-weight: 500;
+    font-size: 2vw;
+}
+
+.textoMediano {
+    color: white;
+    font-size: large;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.subrayado {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+.foto img {
+    width: 100%;
+    position: relative;
+    filter: brightness(50%);
+}
+
+.cropped {
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    object-fit: none;
+}
+
+.foto .overlay {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    right: 10%;
+    font-weight: bold;
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    padding: 3px;
+    width: 100%;
+    background-color: #1C3643;
+    color: white;
+    height: 90px;
+    background-image: linear-gradient(to right, #1C3643, #1E5372);
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.btnVerde {
+    background-color: #96C93E;
+    width: 38rem;
+    color: white;
+    border: 0ch;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;    
+    }
+}
